@@ -17,3 +17,10 @@ edaplayground link: https://www.edaplayground.com/x/7X9C
   Transmission and receiver sampling waveform
 </div>  
 
+## UART 16550
+<div align="center">
+  <image src = "https://github.com/user-attachments/assets/04b0031c-0004-446e-99a2-a8877f37e89d">  
+</div>  
+
+
+
