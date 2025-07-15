@@ -32,19 +32,19 @@ edaplayground link: https://www.edaplayground.com/x/7X9C
 -> For designs requiring low area, the module can be implemented with a 1-character buffer instead of the 16-byte FIFO.  
 
 ## UART 16550 Registers
--> There are 8 registers. Each register width is 8bit.
--> Operations perfomed by each register is 11.
--> Register 0H, has two operation. when **LCR Divisor latch access bit is zero**.
-   -> while read it is act as Receiver holding register(RHR).
-   -> while writing it is transmitter holding register(THR).
--> when **LCR Divisor latch access bit is one**.
-   -> Divisor latch LSB is stored.
--> Register 1H - Interupt enable register, when **LCR Divisor latch access bit is zero**.
--> Register 1H - Divisor latch MSB is stored, when **LCR Divisor latch access bit is one**.
--> Divisor is used to create the **baud pulse**.
--> Register 2H, has two operation.
-   -> Read - Interupt status register.
-   -> write - FIFO control register.
+-> There are 8 registers. Each register width is 8bit.  
+-> Operations perfomed by each register is 11.  
+-> Register 0H, has two operation. when **LCR Divisor latch access bit is zero**.  
+   -> while read it is act as Receiver holding register(RHR).  
+   -> while writing it is transmitter holding register(THR).  
+-> when **LCR Divisor latch access bit is one**.  
+   -> Divisor latch LSB is stored.  
+-> Register 1H - Interupt enable register, when **LCR Divisor latch access bit is zero**.  
+-> Register 1H - Divisor latch MSB is stored, when **LCR Divisor latch access bit is one**.  
+-> Divisor is used to create the **baud pulse**.  
+-> Register 2H, has two operation.  
+   -> Read - Interupt status register.  
+   -> write - FIFO control register.  
 
 <div align="center">
   <img width="650" height="800" alt="image" src="https://github.com/user-attachments/assets/c0a50c49-dc58-48eb-84a3-121166b58a44" />  
