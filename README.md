@@ -63,7 +63,7 @@ edaplayground link: https://www.edaplayground.com/x/7X9C
 
 -> Bits 0 and 1: These bits define the word length of the data being transmitted and received.
 <div align="center">
-  <img width="272" height="245" alt="image" src="https://github.com/user-attachments/assets/e61651e3-bf64-4489-8a7a-5c62b6b7be6d" />
+  <img width="200" height="245" alt="image" src="https://github.com/user-attachments/assets/e61651e3-bf64-4489-8a7a-5c62b6b7be6d" />
 
   Tx and Rx word length
 </div> 
