@@ -53,8 +53,13 @@ edaplayground link: https://www.edaplayground.com/x/7X9C
 </div> 
 
 ### LCR - Line Control Register
--> LCR is the one of important register among UART register.
--> It is used to control the way in which transmitted character are serialized and received characters are assembled and checked.
+-> LCR is the one of important register among UART register.  
+-> It is used to control the way in which transmitted character are serialized and received characters are assembled and checked.  
+<div align="center">
+  <img width="765" height="127" alt="image" src="https://github.com/user-attachments/assets/723173e9-8e64-4f59-80af-27973390637b" />
+  
+  Line control Register
+</div> 
 
 
 
