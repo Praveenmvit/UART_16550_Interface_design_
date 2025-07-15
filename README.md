@@ -61,7 +61,26 @@ edaplayground link: https://www.edaplayground.com/x/7X9C
   Line control Register
 </div> 
 
+-> Bits 0 and 1: These bits define the word length of the data being transmitted and received.
+<div align="center">
+  <img width="272" height="245" alt="image" src="https://github.com/user-attachments/assets/e61651e3-bf64-4489-8a7a-5c62b6b7be6d" />
 
+  Tx and Rx word length
+</div> 
+-> Bit 2: This bit selects the number of stop bits to be transmitted. If cleared, only one stop bit will be transmitted.  
+   -> If set, two stop bits (1.5 with 5-bit data) will be transmitted before the start bit of the next character.  
+   -> The receiver always checks only one stop bit.  
+-> Bits 3 to 5: These bits select the way in which parity control is performed.  
+-> Bit 3 is an enable bit: it selects whether a parity bit is used or not.  
+-> Bit 4 selects the polarity of this control bit.  
+-> Bit 5 forces a value for this bit, independent of the data being transmitted or received.  
+<div align="center">
+  <img width="467" height="455" alt="image" src="https://github.com/user-attachments/assets/2f5f25dd-7e08-45e5-877b-6a0990208cf2" />
 
+  Parity conditions
+</div> 
+-> Bit 7: This is Divisor Latch Access Bit (DLAB).   
+-> This bit must be set in order to access the DLL and DLM registers which program the division constants for the baud rate divider.  
+-> As these registers occupy the same locations as the THR and RHR, DLAB must be zero to access these other registers.  
 
 
