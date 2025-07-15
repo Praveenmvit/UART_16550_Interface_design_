@@ -32,3 +32,4 @@ edaplayground link: https://www.edaplayground.com/x/7X9C
 5.  For designs requiring low area, the module can be implemented with a 1-character buffer instead of the 16-byte FIFO.
 
 
+
