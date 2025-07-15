@@ -24,5 +24,5 @@ edaplayground link: https://www.edaplayground.com/x/7X9C
 <div align="center">
   UART 16550 Block diagram
 </div>  
-1.  The UART_16550 IP is a Universal Asynchronous Receiver Transmitter module fully compatible with the de-facto standard 16550. 
+1.  The UART_16550 IP is a Universal Asynchronous Receiver Transmitter module fully compatible with the de-facto standard 16550.  
 2.  This is the standard that can be found in most personal computers and for which a lot of software knowledge and programs is available.
