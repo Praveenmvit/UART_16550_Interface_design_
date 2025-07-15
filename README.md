@@ -21,4 +21,6 @@ edaplayground link: https://www.edaplayground.com/x/7X9C
 <div align="center">
   <img width="500" height="250" alt="uart" src="https://github.com/user-attachments/assets/fc1d450e-876c-40e0-90a2-56a8e9fb6108" />
 </div>  
-
+<div align="center">
+  UART 16550 Block diagram
+</div>  
