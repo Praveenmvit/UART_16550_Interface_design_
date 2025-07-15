@@ -31,5 +31,11 @@ edaplayground link: https://www.edaplayground.com/x/7X9C
 4.  If equipped, the software can decide to put the UART in non-FIFO (16450) mode or in FIFO (16550) mode.
 5.  For designs requiring low area, the module can be implemented with a 1-character buffer instead of the 16-byte FIFO.
 
+## UART 16550 Registers
+<div align="center">
+  <img width="650" height="800" alt="image" src="https://github.com/user-attachments/assets/c0a50c49-dc58-48eb-84a3-121166b58a44" />
+</div> 
+
+
 
 
