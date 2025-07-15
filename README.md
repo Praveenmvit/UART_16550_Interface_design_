@@ -85,4 +85,10 @@ edaplayground link: https://www.edaplayground.com/x/7X9C
 -> This bit must be set in order to access the DLL and DLM registers which program the division constants for the baud rate divider.  
 -> As these registers occupy the same locations as the THR and RHR, DLAB must be zero to access these other registers.  
 
+## APPLICATIONS
+-> Used to print debug messages from embedded systems to PCs.  
+-> Communication with wireless modules like: Bluetooth, Wi-Fi and GSM/GPRS.  
+-> Sensors (IMUs, temperature, pressure, etc.) often interface using UART when SPI/I2C is not feasible.  
+
+
 
