@@ -76,7 +76,7 @@ edaplayground link: https://www.edaplayground.com/x/7X9C
 -> Bit 4 selects the polarity of this control bit.  
 -> Bit 5 forces a value for this bit, independent of the data being transmitted or received.  
 <div align="center">
-  <img width="467" height="455" alt="image" src="https://github.com/user-attachments/assets/2f5f25dd-7e08-45e5-877b-6a0990208cf2" />
+  <img width="300" height="350" alt="image" src="https://github.com/user-attachments/assets/2f5f25dd-7e08-45e5-877b-6a0990208cf2" />
 
   Parity conditions
 </div> 
