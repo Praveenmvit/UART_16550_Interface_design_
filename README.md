@@ -34,6 +34,7 @@ edaplayground link: https://www.edaplayground.com/x/7X9C
 ## UART 16550 Registers
 <div align="center">
   <img width="650" height="800" alt="image" src="https://github.com/user-attachments/assets/c0a50c49-dc58-48eb-84a3-121166b58a44" />  
+  
   UART 16550 Register Set
 </div> 
 
