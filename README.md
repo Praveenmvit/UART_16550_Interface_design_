@@ -67,6 +67,7 @@ edaplayground link: https://www.edaplayground.com/x/7X9C
 
   Tx and Rx word length
 </div> 
+
 -> Bit 2: This bit selects the number of stop bits to be transmitted. If cleared, only one stop bit will be transmitted.  
    -> If set, two stop bits (1.5 with 5-bit data) will be transmitted before the start bit of the next character.  
    -> The receiver always checks only one stop bit.  
@@ -79,6 +80,7 @@ edaplayground link: https://www.edaplayground.com/x/7X9C
 
   Parity conditions
 </div> 
+
 -> Bit 7: This is Divisor Latch Access Bit (DLAB).   
 -> This bit must be set in order to access the DLL and DLM registers which program the division constants for the baud rate divider.  
 -> As these registers occupy the same locations as the THR and RHR, DLAB must be zero to access these other registers.  
