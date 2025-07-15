@@ -25,11 +25,11 @@ edaplayground link: https://www.edaplayground.com/x/7X9C
   UART 16550 Block diagram
 </div>   
 
-1.  The UART_16550 IP is a Universal Asynchronous Receiver Transmitter module fully compatible with the de-facto standard 16550.</bl> 
-2.  This is the standard that can be found in most personal computers and for which a lot of software knowledge and programs is available.
-3.  Both the transmitter and the receiver can be equipped, if selected at synthesis time, with a 16- character First In First Out (FIFO) buffer.
-4.  If equipped, the software can decide to put the UART in non-FIFO (16450) mode or in FIFO (16550) mode.
-5.  For designs requiring low area, the module can be implemented with a 1-character buffer instead of the 16-byte FIFO.
+-> The UART_16550 IP is a Universal Asynchronous Receiver Transmitter module fully compatible with the de-facto standard 16550.</bl> 
+-> This is the standard that can be found in most personal computers and for which a lot of software knowledge and programs is available.
+-> Both the transmitter and the receiver can be equipped, if selected at synthesis time, with a 16- character First In First Out (FIFO) buffer.
+-> If equipped, the software can decide to put the UART in non-FIFO (16450) mode or in FIFO (16550) mode.
+-> For designs requiring low area, the module can be implemented with a 1-character buffer instead of the 16-byte FIFO.
 
 ## UART 16550 Registers
 <div align="center">
@@ -37,6 +37,9 @@ edaplayground link: https://www.edaplayground.com/x/7X9C
   
   UART 16550 Register Set
 </div> 
+
+### LCR - Line Control Register
+-> 
 
 
 
